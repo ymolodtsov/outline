@@ -1,0 +1,16 @@
+{
+  "name": "Outline.com Reader",
+  "version": "1.0",
+  "description": "Read web pages without clutter via outline.com",
+  "background": {
+     "scripts": ["background.js"],
+     "persistent": false
+   },
+   "permissions": ["tabs"],
+   "browser_action" : {},
+   "manifest_version": 2,
+   "icons": {
+      "64": "images/favicon64.png",
+      "128": "images/favicon128.png"
+    }
+ }
